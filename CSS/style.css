@@ -1,0 +1,102 @@
+.my-2{
+    max-width: 80vw;
+}
+.m-auto{
+    margin: auto;
+}
+/* For text */
+.t-center{
+    text-align: center;
+}
+.head{
+    font-size: 3rem;
+    color:black;
+}
+#txt {
+    width: 67vw;
+    height: 100%;
+    margin: 7vh 8.5vw;
+    color:black;
+    font-size: 1.5rem;
+    padding: 1vh 1vw;
+    /* position: absolute; */
+}
+.IMG {
+    width: 15vw;
+    height: 40vh;
+    position: absolute;
+    right: 1vw;
+    top: 34vh;
+}
+.f-s-1{
+    font-size: 1.2rem;
+}
+.m-l-0{
+    margin-left: 2vw;
+}
+#Home{
+    width: 100%;
+    height: 200vh;
+	
+}
+body{
+    /* background-color: #323232; */background-color: white;
+
+}
+
+#hr1{
+    height: 1vh;
+    color:black;
+    background: white;
+    border-radius: 10px;
+}
+details summary { 
+    cursor: pointer;
+    color:black;
+    font-size: 2rem;
+}
+details p {
+    /* cursor: pointer; */
+    color:black;
+    /* font-size: 1rem; */
+    margin-left: 2vw;
+    font-size: 1.5rem;
+    padding: 2vh 2vw;
+    padding-right: 10vw;
+}
+/* #Early-life{
+    margin-top: 156vh;
+} */
+details{
+    font-size: 2rem;
+    margin-left: 10vw;
+}
+@media only screen and (max-width:800px) {
+    
+    .my-2{
+        max-width: 95vh;
+    }
+    #txt {
+        width: 83vw;
+        margin-top: 38vh;
+        /* height: 100%;
+        margin: 7vh 8.5vw;
+        color:black;
+        font-size: 1.5rem;
+        padding: 1vh 1vw;
+        position: absolute; */
+    }
+    .IMG {
+        width: 46vw;
+        top: 15vh;
+        height: 29vh;
+        text-align: center;
+        margin: 0vh 27vw;
+        top: 21vh;
+    }
+    .head{
+        font-size: 2rem;
+    }
+
+    
+}
